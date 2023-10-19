@@ -11,7 +11,7 @@ export function Page404() {
 			)}
 		>
 			Page doesn't exist
-			<Link className="text-xl underline" to={"/"}>
+			<Link className="text-xl underline" to={"/test2"}>
 				Back to main!
 			</Link>
 		</div>

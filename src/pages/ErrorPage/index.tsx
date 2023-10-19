@@ -43,7 +43,7 @@ export class ErrorBoundary extends React.Component<
 						)}
 					>
 						<h1>Something went wrong</h1>
-						<Link className="text-xl underline" to={"/"}>
+						<Link className="text-xl underline" to={"/test2"}>
 							Back to main!
 						</Link>
 						<button

@@ -14,8 +14,8 @@ export interface IRoute {
 export const routes: Record<RoutesType, IRoute> = {
 	home: {
 		title: "Home",
-		path: "/",
-		link: () => `/`,
+		path: "/test2",
+		link: () => `/test2`,
 		icon: HomeIcon,
 	},
 	watch: {
