@@ -1,0 +1,11 @@
+export { ArrIcon } from "./ArrIcon";
+export { CommunityIcon } from "./CommunityIcon";
+export { GraduateIcon } from "./GraduateIcon";
+export { HelpIcon } from "./HelpIcon";
+export { HomeIcon } from "./HomeIcon";
+export { MoneyIcon } from "./MoneyIcon";
+export { NotificationIcon } from "./NotificationIcon";
+export { SearchIcon } from "./SearchIcon";
+export { WatchIcon } from "./WatchIcon";
+export { MenuIcon } from "./MenuIcon";
+export { SidebarIcon } from "./SidebarIcon";

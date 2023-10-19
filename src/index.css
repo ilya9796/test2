@@ -1,0 +1,52 @@
+@import "https://fonts.fontstorage.com/import/ptrootui.css";
+
+* {
+	outline: none;
+	border: none;
+	font-family: "PT Root UI";
+}
+
+.mainLinear {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%);
+}
+
+.watchLinear {
+	background: linear-gradient(
+		182deg,
+		#ef7e3c 3.76%,
+		#f5b048 60.76%,
+		#f7c64d 85.52%
+	);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.swiper_container {
+	position: relative;
+}
+
+.slider-arrow::after {
+	width: 0;
+	height: 0;
+	font-size: 0;
+}
+
+.swiper-button-next::after {
+	width: 0;
+	height: 0;
+	font-size: 0;
+}
+
+@media (min-width: 1200px) {
+	.swiper-slide {
+		transition: all 0.5s;
+		transform: rotate(10deg) scale(0.84) translateX(50px) translateY(20px);
+	}
+	.swiper-slide.activeSlide {
+		transform: rotate(-10deg) scale(0.84) translateX(-50px) translateY(20px) !important ;
+	}
+	.swiper-slide.nextSlide {
+		transform: rotate(0deg) scale(1) !important;
+	}
+}
