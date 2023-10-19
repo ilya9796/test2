@@ -20,14 +20,14 @@ export const routes: Record<RoutesType, IRoute> = {
 	},
 	watch: {
 		title: "Watch",
-		path: "/watch/:id",
-		link: (id: number) => `/watch/${id}`,
+		path: "/test2/watch/:id",
+		link: (id: number) => `/test2/watch/${id}`,
 		icon: WatchIcon,
 	},
 	community: {
 		title: "Community",
-		path: "/community",
-		link: () => "/community",
+		path: "/test2/community",
+		link: () => "/test2/community",
 		icon: CommunityIcon,
 	},
 };
