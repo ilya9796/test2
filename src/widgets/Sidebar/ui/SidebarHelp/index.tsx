@@ -7,7 +7,7 @@ import cn from "classnames";
 export function Sidebarhelp() {
 	const location = useLocation();
 
-	const isHome = location.pathname === "/";
+	const isHome = location.pathname === "/test2/";
 
 	return (
 		<>

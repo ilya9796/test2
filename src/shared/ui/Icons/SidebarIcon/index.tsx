@@ -4,7 +4,7 @@ import { IIconProps } from "../types";
 export function SidebarIcon({ className, onClick }: IIconProps) {
 	const location = useLocation();
 
-	const isHome = location.pathname === "/";
+	const isHome = location.pathname === "/test2/";
 	if (isHome) {
 		return (
 			<svg
