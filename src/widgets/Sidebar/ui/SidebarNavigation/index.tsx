@@ -18,7 +18,9 @@ export function SidebarNavigation() {
 						<div className="flex justify-between items-center">
 							<Link
 								to={
-									route.title === "Watch" ? "/watch/doesn'tSet" : route.link()
+									route.title === "Watch"
+										? "/test2/watch/doesn'tSet"
+										: route.link()
 								}
 								key={route.title}
 								className="flex items-center gap-[13px] py-3 hover:text-[#EF7B3C] duration-500 group"
